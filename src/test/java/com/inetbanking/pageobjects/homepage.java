@@ -20,6 +20,25 @@ public class homepage {
 		return welcometomgrpage.isDisplayed();
 	}
 	 
+	@FindBy(xpath ="//a[.='New Customer']")
+	WebElement newcustomer;
+
+	public addcustomerpage clicknewcust()
+	{
+		newcustomer.click();
+		return new addcustomerpage(driver);
+	}
+	
+	@FindBy(xpath ="//a[.='Edit Customer']")
+	WebElement editcustomer;
+	
+	@FindBy(xpath ="//a[.='Delete Customer']")
+	WebElement deletecustomer;
+	
+	@FindBy(xpath ="//a[.='Mini Statement']")
+	WebElement ministatement;
+	
+	
 	@FindBy(xpath = "//a[.='Log out']")
 	WebElement logoutbtn;
 	

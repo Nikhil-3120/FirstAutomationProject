@@ -7,8 +7,9 @@
   <test thread-count="5" name="Test">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="com.inetbanking.testcases.logintest1"/>
-   <!--    <class name="com.inetbanking.testcases.logouttest"/> -->
+    <!--  <class name="com.inetbanking.testcases.logintest1"/> -->
+   <!--  <class name="com.inetbanking.testcases.logouttest"/> -->
+   <class name = "com.inetbanking.testcases.newcustomer"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

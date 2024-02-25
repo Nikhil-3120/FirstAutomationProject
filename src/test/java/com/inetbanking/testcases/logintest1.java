@@ -21,15 +21,15 @@ public class logintest1 extends Baseclass {
 		 hp = lp.clickbtn();
 		Assert.assertTrue(hp.mgrpagedisplayed(), "homepage is dispayed");
 		
-	 if(driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
-		 Assert.assertTrue(true);
-	 }
+//	 if(driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
+//		 Assert.assertTrue(true);
+//	 }
 	/* else {
 		// captureScreenShot( driver, "logintc");
 		 Assert.assertTrue(false);
 	 }*/
 }
-	@Test(priority=2)
+	//@Test(priority=2)
 	public void logouttc() {
 		hp.clicklogout();
 		driver.switchTo().alert().accept();

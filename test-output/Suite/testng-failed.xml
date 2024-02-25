@@ -7,13 +7,14 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.inetbanking.testcases.logouttest">
+      <class name="com.inetbanking.testcases.newcustomer">
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="logouttc"/>
+          <include name="logout"/>
+          <include name="entercustdetails"/>
         </methods>
-      </class> <!-- com.inetbanking.testcases.logouttest -->
+      </class> <!-- com.inetbanking.testcases.newcustomer -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
